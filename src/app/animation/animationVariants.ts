@@ -170,12 +170,12 @@ export const animateRotateFromRight: Variants = {
 export const animateDownTop: Variants = {
   offscreen: {
     y: 100,
-    size: 0,
+    scale: 0,
     opacity: 0
   },
   onscreen: {
     y: 0,
-    size: 1,
+    scale: 1,
     opacity: 1,
     transition: {
       duration: 1.2
@@ -188,12 +188,12 @@ export const animateDownTop: Variants = {
 export const animateTopDown: Variants = {
   offscreen: {
     y: -100,
-    size: 0,
+    scale: 0,
     opacity: 0
   },
   onscreen: {
     y: 0,
-    size: 1,
+    scale: 1,
     opacity: 1,
 
   }
