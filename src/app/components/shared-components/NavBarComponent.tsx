@@ -54,14 +54,13 @@ const NavBarComponent = () => {
                     <Drawer
 
                         open={openDrawer}
-                        onClose={() => { closeDrawer_() }}
+                        onClose={() => { closeDrawer_(); }}
                         placement='right'
                         size={400}
                         overlay={true}
 
                         className='z-20 lg:hidden visible fixed top-0 bottom-0 flex justify-start flex-col md:w-[50%] w-[70%] h-screen bg-[#0E0E12] border-l border-white/10'
-                        placeholder={""} onPointerEnterCapture={() => { }} onPointerLeaveCapture={() => { }}
-                    >
+                        placeholder={""} onPointerEnterCapture={() => { }} onPointerLeaveCapture={() => { }} onResize={undefined} onResizeCapture={undefined}                    >
 
 
                         <button className='fixed right-0 flex justify-end items-end p-6'>
